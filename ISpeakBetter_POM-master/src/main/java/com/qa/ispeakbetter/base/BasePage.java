@@ -46,7 +46,7 @@ public class BasePage {
 
 	public Properties init_properties() {
 		prop = new Properties();
-		String path = "/Users/hamzakisac/eclipse-workspace/ISpeakBetter_POM/src/main/java/com/qa/ispeakbetter/config/config.properties";
+		String path = "/Users/szr/eclipse-workspace/ISpeakBetter_POM/src/main/java/com/qa/ispeakbetter/config/config.properties";
 
 		try {
 			FileInputStream ip = new FileInputStream(path);
