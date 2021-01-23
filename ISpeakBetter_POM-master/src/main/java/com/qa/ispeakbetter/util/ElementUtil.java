@@ -17,7 +17,7 @@ import com.qa.ispeakbetter.base.BasePage;
 
 /**
  * 
- * @author hamzakisac
+ * @author szrertugrul
  *
  */
 
@@ -74,7 +74,7 @@ public class ElementUtil extends BasePage{
 		try {
 			return driver.getTitle();
 		} catch (Exception e) {
-			System.out.println("some exception got occured while getting the title...");
+			System.out.println("Exception occurred while getting the title");
 		}
 		return null;
 	}
@@ -96,7 +96,7 @@ public class ElementUtil extends BasePage{
 				jScriptUtil.flash(element);
 			}
 		} catch (Exception e) {
-			System.out.println("Exception got occured while creating the web element" + locator);
+			System.out.println("Exception occurred while creating the web element" + locator);
 		}
 		return element;
 	}
@@ -111,7 +111,7 @@ public class ElementUtil extends BasePage{
 		try {
 			getElement(locator).click();
 		} catch (Exception e) {
-			System.out.println("some exception got occured while clicking the web element");
+			System.out.println("Exception occurred while clicking the web element");
 		}
 	}
 
@@ -128,7 +128,7 @@ public class ElementUtil extends BasePage{
 			element.clear();
 			element.sendKeys(value);
 		} catch (Exception e) {
-			System.out.println("some exception got occured while entering values in a field");
+			System.out.println("Exception occurred while entering values in a field");
 		}
 	}
 
@@ -143,7 +143,7 @@ public class ElementUtil extends BasePage{
 		try {
 			return getElement(locator).isDisplayed();
 		} catch (Exception e) {
-			System.out.println("some exception got occured isDisplayed method");
+			System.out.println("Exception occurred in isDisplayed method");
 		}
 		return false;
 	}
@@ -159,7 +159,7 @@ public class ElementUtil extends BasePage{
 		try {
 			return getElement(locator).isEnabled();
 		} catch (Exception e) {
-			System.out.println("some exception got occured isEnabled method");
+			System.out.println("Exception occurred in isEnabled method");
 		}
 		return false;
 	}
@@ -175,7 +175,7 @@ public class ElementUtil extends BasePage{
 		try {
 			return getElement(locator).isSelected();
 		} catch (Exception e) {
-			System.out.println("some exception got occured isSelected method");
+			System.out.println("Exception occurred in isSelected method");
 		}
 		return false;
 	}
@@ -191,7 +191,7 @@ public class ElementUtil extends BasePage{
 		try {
 			return getElement(locator).getText();
 		} catch (Exception e) {
-			System.out.println("some exception got occured while getting text...");
+			System.out.println("Exception occurred while getting text");
 		}
 		return null;
 	}
@@ -210,7 +210,7 @@ public class ElementUtil extends BasePage{
 			jScriptUtil.flash(driver.findElement(locator));
 		}
 		}catch (Exception e) {
-			System.out.println("Exception ccured while selecting");
+			System.out.println("Exception occurred while selecting by text");
 		}
 	}
 
@@ -226,7 +226,7 @@ public class ElementUtil extends BasePage{
 			Select select = new Select(driver.findElement(locator));
 			select.selectByIndex(index);
 			}catch (Exception e) {
-				System.out.println("Exception ccured while selecting");
+				System.out.println("Exception occurred while selecting by index");
 			}
 	}
 
