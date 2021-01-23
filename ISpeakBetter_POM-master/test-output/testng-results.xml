@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7182" started-at="2020-09-01T14:35:52 CDT" finished-at="2020-09-01T14:35:59 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7182" started-at="2020-09-01T14:35:52 CDT" finished-at="2020-09-01T14:35:59 CDT">
+      <class name="com.qa.ispeakbetter.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ispeakbetter.test.HomePageTest@76707e36]" name="setUp" is-config="true" duration-ms="3843" started-at="2020-09-01T14:35:52 CDT" finished-at="2020-09-01T14:35:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.ispeakbetter.test.HomePageTest@76707e36]" name="verifyHomePageTitleTest" duration-ms="25" started-at="2020-09-01T14:35:56 CDT" description="---Verifies HomePage Title---" finished-at="2020-09-01T14:35:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyHeaderTest()[pri:2, instance:com.qa.ispeakbetter.test.HomePageTest@76707e36]" name="verifyHeaderTest" duration-ms="734" started-at="2020-09-01T14:35:56 CDT" description=" ---Verifies the Header Text---" finished-at="2020-09-01T14:35:57 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderTest -->
+        <test-method status="PASS" signature="doClickOnSupportAndVerifyHeaderTest()[pri:3, instance:com.qa.ispeakbetter.test.HomePageTest@76707e36]" name="doClickOnSupportAndVerifyHeaderTest" duration-ms="2446" started-at="2020-09-01T14:35:57 CDT" description="---Click On Support and Get SupportHeader Text---" finished-at="2020-09-01T14:35:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnSupportAndVerifyHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ispeakbetter.test.HomePageTest@76707e36]" name="tearDown" is-config="true" duration-ms="101" started-at="2020-09-01T14:35:59 CDT" finished-at="2020-09-01T14:35:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ispeakbetter.test.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
